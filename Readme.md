@@ -35,3 +35,13 @@ The output for each rover should be its final co-ordinates and heading.
 Test Input: 5 5 1 2 N LMLMLMLMM 3 3 E MMRMMRMRRM
 
 Expected Output: 1 3 N 5 1 E
+
+## HOW TO RUN
+
+Import maven project in Eclipse and click on Run with the previous explained parameters.
+
+Or run in the root project run:
+$ mvn clean package
+
+The MarsRovers.jar will be located in target/. To run the jar run:
+$ java -jar MarsRovers.jar [x-plateau] [y-plateau] ([x-rover] [y-rover] [rover-direction] [rover-commands])+
