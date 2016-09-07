@@ -49,3 +49,12 @@ The MarsRovers.jar will be located in target/. To run the jar run:
 ```
 $ java -jar MarsRovers.jar [x-plateau] [y-plateau] ([x-rover] [y-rover] [rover-direction] [rover-commands])+
 ```
+
+## TESTS
+
+When the compilation is done, all tests are executed.
+
+To run only the tests, run:
+```
+$ mvn test
+```
